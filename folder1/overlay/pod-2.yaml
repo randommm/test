@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx-3
+  name: nginx-overlay
 spec:
   containers:
   - name: nginx
