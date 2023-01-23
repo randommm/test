@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx-overlay
+  name: nginx-base
 spec:
   containers:
   - name: nginx
-    image: nginx:1.14.2
+    image: nginx:1.15
     ports:
     - containerPort: 80
