@@ -1,6 +1,6 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- github.com/randommm/test/tree/main/folder1/base
+- ../base
 - pod-2.yaml
 namespace: test
